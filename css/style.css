@@ -11,10 +11,20 @@ div{
     background-color: #593ef1c2;
 }
 
+a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .E1{
     position: absolute;
     width: 150px;
-    height: 250px;
+    height: 200px;
     left: 5px;
     top: 0px;
     border-radius: 25px;
@@ -23,11 +33,25 @@ div{
 .E12{
     position: absolute;
     width: 155px;
-    height: 255px;
+    height: 205px;
     left: 5px;
     top: 5px;
     border-radius: 25px; 
     background-color: rgba(0, 0, 0, 0.548);
+}
+
+.textoE1{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    left: 5px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    background-color: rgba(240, 248, 255, 0);
 }
 
 .M1{
@@ -87,6 +111,25 @@ div{
     border-radius: 25px;
     background: linear-gradient(138.85deg, #30293F 31.94%, rgba(208, 53, 193, 0.123528) 104.21%, rgba(13, 23, 47, 0.109375) 104.22%, rgba(3, 18, 32, 0) 104.23%);
 }
+
+.textoM2{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 15px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
 .M22{
     position: absolute;
     width: 280px;
@@ -95,6 +138,24 @@ div{
     top: 13%;
     border-radius: 25px;
     background: linear-gradient(138.85deg, #30293F 31.94%, rgba(208, 53, 193, 0.123528) 104.21%, rgba(13, 23, 47, 0.109375) 104.22%, rgba(3, 18, 32, 0) 104.23%);
+}
+
+.textoM22{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 5px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
 }
 
 .M3{
@@ -106,6 +167,7 @@ div{
     border-radius: 25px;
     background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
 }
+
 .M31{
     position: absolute;
     width: 265px;
@@ -114,6 +176,24 @@ div{
     top: 25%;
     border-radius: 25px; 
     background-color: rgba(0, 0, 0, 0.548);
+}
+
+.textoM3{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
 }
 .M33{
     position: absolute;
@@ -124,6 +204,7 @@ div{
     border-radius: 25px;
     background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
 }
+
 .M32{
     position: absolute;
     width: 265px;
@@ -132,6 +213,24 @@ div{
     top: 25%;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.548);
+}
+
+.textoM33{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
 }
 
 .D1{
@@ -144,6 +243,24 @@ div{
     background: linear-gradient(138.85deg, #30293F 31.94%, rgba(208, 53, 193, 0.123528) 104.21%, rgba(13, 23, 47, 0.109375) 104.22%, rgba(3, 18, 32, 0) 104.23%);
 }
 
+.nomes{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 10px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
 .D2{
     position: absolute;
     width: 150px;
@@ -151,7 +268,7 @@ div{
     left: 0px;
     top: 0px;
     border-radius: 25px;
-    background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
+    background: url(../imagem/Planck);
 }
 
 .D21{
@@ -164,6 +281,25 @@ div{
     background-color: rgba(0, 0, 0, 0.548);
 }
 
+.planck{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 71%;
+    top: 320px;
+    border-radius: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
 .D3{
     position: absolute;
     width: 150px;
@@ -171,7 +307,8 @@ div{
     left: 0px;
     top: 0px;
     border-radius: 25px;
-    background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
+    background: url(../imagem/albert.png);
+    Fill: Image;
 }
 
 .D31{
@@ -184,6 +321,25 @@ div{
     background-color: rgba(0, 0, 0, 0.548);
 }
 
+.albert{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 89%;
+    top: 430px;
+    border-radius: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
 .D4{
     position: absolute;
     width: 150px;
@@ -191,7 +347,7 @@ div{
     left: 0px;
     top: 0px;
     border-radius: 25px;
-    background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
+    background: url(../imagem/Ernest.png);
 }
 
 .D41{
@@ -204,24 +360,23 @@ div{
     background-color: rgba(0, 0, 0, 0.548);
 }
 
-.E2{
+.ernest{
     position: absolute;
-    width: 150px;
-    height: 250px;
-    left: 0px;
-    top: 0px;
+    width: 50px;
+    height: 20px;
+    left: 71%;
+    top: 540px;
     border-radius: 25px;
-    background: linear-gradient(133.81deg, #685E85 23.83%, rgba(119, 111, 144, 0.861635) 35.98%, rgba(217, 217, 217, 0) 88.22%);
-}
-
-.E21{
-    position: absolute;
-    width: 155px;
-    height: 255px;
-    left: 10px;
-    top: 38%;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.548);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
 }
 
 .E3{
@@ -241,5 +396,264 @@ div{
     top: 76%;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.548);
+    animation: E31 7s infinite;
 }
+
+.textoE3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+@keyframes E31{
+    0%{top: 76%;}
+    50%{top: 38%;}
+    100%{top: 76%;}
+}
+
+/* corpo negro */
+
+.cC1{
+    position:absolute;
+    width: 87%;
+    height: 83%;
+    left: 13%;
+    top: 17%;
+    background: url(../imagem/galaxia.jpg);
+    Opacity: 98%
+}
+
+.cM1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 190px;
+    top: 20px;
+    border-radius: 25px;
+    background: linear-gradient(138.85deg, #30293F 31.94%, rgba(208, 53, 193, 0.123528) 104.21%, rgba(13, 23, 47, 0.109375) 104.22%, rgba(3, 18, 32, 0) 104.23%);
+}
+
+.textocM1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 60px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+.cM21{
+    position: absolute;
+    width: 615px;
+    height: 465px;
+    left: 40px;
+    top: 100px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.cM2{
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    border-radius: 25px;
+    background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
+}
+
+.textocM2{
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 5px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+.cD11{
+    position: absolute;
+    width: 465px;
+    height: 300px;
+    left: 680px;
+    top: 100px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.cD1{
+    position: absolute;
+    width: 450px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+    border-radius: 25px;
+    background: url(../imagem/corpo_negro.jpg);
+}
+
+.textoE4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+/*quantização de energia*/
+
+.qC1{
+    position:absolute;
+    width: 87%;
+    height: 83%;
+    left: 13%;
+    top: 17%;
+    background: url(../imagem/galaxia.jpg);
+    Opacity: 98%
+}
+
+.textoE2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+.qM1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 50px;
+    top: 20px;
+    border-radius: 25px;
+    background: linear-gradient(138.85deg, #30293F 31.94%, rgba(208, 53, 193, 0.123528) 104.21%, rgba(13, 23, 47, 0.109375) 104.22%, rgba(3, 18, 32, 0) 104.23%);
+}
+
+.textoqM1{    
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 3px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+.qM21{
+    position: absolute;
+    width: 315px;
+    height: 465px;
+    left: 40px;
+    top: 100px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.qM2{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    border-radius: 25px;
+    background: linear-gradient(140.4deg, #603DAB 27.5%, rgba(208, 53, 193, 0.123528) 104.32%, rgba(13, 23, 47, 0.109375) 104.33%, rgba(3, 18, 32, 0) 104.34%);
+}
+
+.textoqM2{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 5px;
+    top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+    background-color: rgba(240, 248, 255, 0);
+    color: #ffffff;
+}
+
+.qM31{
+    position: absolute;
+    width: 465px;
+    height: 495px;
+    left: 400px;
+    top: 60px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.548);
+    animation: qM31 10s infinite;
+}
+
+.qM3{
+    position: absolute;
+    width: 450px;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+    border-radius: 25px;
+    background: url(../imagem/energia);
+}
+
+@keyframes qM31{
+    0%{left: 400px;}
+    50%{left: 650px;}
+    100%{left: 400px;}
+}
+
 
